@@ -29,6 +29,7 @@ const regionByLang = {
 };
 
 export const HomePage = observer(() => {
+  console.log("class initiation page rendered")
   const homeStore = useHomeStore();
 
   const [roomId, setRoomId] = useState<string>('');
